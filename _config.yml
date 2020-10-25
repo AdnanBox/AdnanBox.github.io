@@ -1,48 +1,60 @@
-title: devlopr
-subtitle: A Jekyll Theme Built for Developers
+title: Adnan Boxwala
+subtitle: Software Development Engineer
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+  Adnan Boxwala is a software development engineer by day, dreamer by night. Passionate about machine learning and it's application in autonomous driving.
+url: "https://AdnanBox.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
-    - text: About Me
+    - text: About 
       url: /about
+    - text: Education
+      url : /education
+    - text: Work Experience
+      url : /experience
+    - text: Projects
+      url : /projects
+    - text: Hobbies
+      url : /hobbies
     - text: Contact Me
       url : /contact
+
 
 # Edit these details
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll theme built for developers. You can edit this in _config.yml file
+author: Adnan Boxwala
+author_bio: As a Software Engineer in an agile team, I work towards transforming the software development
+            and validation of highly automated driving functions from the real vehicle into the virtual world. While 
+            continuously improving my programming skills in C++ and Python on the job, I fulfil my passion for 
+            Artificial Intelligence by taking up online courses and reading articles in my personal time. 
+author_email: "adnan93212@gmail.com"
+author_location: Ingolstadt, Germany
+author_location_url: "https://www.google.com/maps/place/Ingolstadt/@48.7534664,11.3096118,12z/data=!3m1!4b1!4m5!3m4!1s0x479efe5188360abb:0xec5d7e2213748aea!8m2!3d48.7665351!4d11.4257541"
+typewrite-text: Looking for new opportunities to apply my knowledge in machine learning 
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
-              visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: Elektronische Fahrwerksysteme GmbH
+              company_logo: efs.png
+              company_url: https://www.efs-auto.com/
+              designation: Software Development Engineer
+              description: Highway pilot (SiL, ViL)
               visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: FHAachen.png
+                college_name: FH Aachen University of Applied Sciences
+                college_url: https://www.fh-aachen.de/
+                college_degree: Mechatronics 
+                description: Master of Science
+                visibility: true
+              - college_logo: sppu.jpg
+                college_name: Savitribai Phule Pune University (formerly University of Pune)
+                college_url: http://www.unipune.ac.in/
+                college_degree: Mechanical Engineering
+                description: Bachelor of Engineering
                 visibility: true
 
 # Projects
@@ -59,16 +71,9 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  sujaykundu777
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+github_username:  AdnanBox
+linkedin_username: adnan-boxwala
+instagram_username: adnan_boxwala
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
