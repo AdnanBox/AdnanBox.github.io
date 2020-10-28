@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div class="row ">
+  <div class="col-lg-10 offset-lg-1">
+    {% if site.show_author_education_details == true %}
+    <div class="card">
+      <h1 class="card-title">Education</h1>
+      <br />
+      {% for detail in site.author_education_details %} {% if detail.visibility
+      == true %}
+      <div class="row">
+        <div class="col-lg-8">
+          <h4 class="experience-title">{{detail.college_degree }}</h4>
+          <h6 class="experience-info">{{detail.college_name}}</h6>
+          <h6 class="experience-info">{{detail.period}}</h6>
+          <p class="experience-desc">{{detail.description}}</p>
+          <br />
+          <br />
+          <br />
+        </div>
+        <div class="col-lg-2" style="text-align: center;">
+          <img
+            src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}"
+            class="uni-logo"
+          />
+          <p><a href="{{detail.college_url}}">{{ detail.alias_url}}</a></p>
+        </div>
+        
+      </div>
+      {% endif %} {% endfor %}
+    </div>
+    {% endif %} 
+  </div>
+</div>
