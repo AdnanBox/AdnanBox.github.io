@@ -68,7 +68,21 @@ layout: default
       <h1 class="card-title">About</h1>
       <p>{{ site.author_bio }}</p>
     </div>
-    {% endif %} <!--{% if site.show_author_project_details == true %}
+    {% endif %} 
+    <div class="card">
+      <h1 class="card-title">When I'm not working...</h1>
+      <div class="row">
+        <div><img src="{{ site.url }}{{ site.baseurl }}/assets/img/hobby1.png" class="hobby_img"/></div>
+        <div class="column">
+          <div><img src="{{ site.url }}{{ site.baseurl }}/assets/img/hobby2.jpg" class="hobby_img"/></div>
+          <div><img src="{{ site.url }}{{ site.baseurl }}/assets/img/hobby3.png" class="hobby_img"/></div>
+        </div>
+        <div><img src="{{ site.url }}{{ site.baseurl }}/assets/img/hobby4.png" class="hobby_img"/></div>
+        
+        
+      </div> 
+    </div>
+    <!--{% if site.show_author_project_details == true %}
     <div id="author_projects" class="card">
       <h1 class="card-title">Projects</h1>
       <br />

@@ -16,8 +16,8 @@ urls:
       url : /projects
     - text: Additonal Info
       url : /add_info
-    - text: Contact Me
-      url : /contact
+    #- text: Contact Me
+    #  url : /contact
 
 
 # Edit these details
@@ -31,7 +31,7 @@ author_bio: As a Software Engineer in an agile team, I work towards transforming
 author_email: "adnan93212@gmail.com"
 author_location: Ingolstadt, Germany
 author_location_url: "https://www.google.com/maps/place/Ingolstadt/@48.7534664,11.3096118,12z/data=!3m1!4b1!4m5!3m4!1s0x479efe5188360abb:0xec5d7e2213748aea!8m2!3d48.7665351!4d11.4257541"
-typewrite-text: Looking for new opportunities to apply my knowledge in machine learning 
+typewrite-text: Looking for new opportunities to apply my knowledge of machine learning 
 
 # Experiences
 author_work_experiences:
@@ -53,6 +53,7 @@ author_work_experiences:
               company_url: https://www.dspace.com/en/pub/home.cfm
               alias_url: dspace.com
               designation: Master Thesis Student
+              certificate: dSPACE_MasterThesis.pdf
               period: 10.04.2019 - 09.09.2019
               description:
                   - Research and evaluation of different NN based algorithms object detection/segmentation using LiDAR data.
@@ -63,6 +64,7 @@ author_work_experiences:
               company_url: https://www.dspace.com/en/pub/home.cfm
               alias_url: dspace.com
               designation: Intern
+              certificate: dSPACE.pdf
               period: 10.01.2019 - 09.04.2019
               description:
                   - Familiarised myself with the NVIDIA Drive AGX hardware platform to feed synthetic LiDAR data and 
@@ -75,6 +77,7 @@ author_work_experiences:
               company_url: https://www.dspace.com/en/pub/home.cfm
               alias_url: dspace.com
               designation: Working student
+              certificate: dSPACE.pdf
               period: 01.10.2018 - 31.12.2018
               description:
                   - Induction to tools catering to ADAS/AD applications (RTMaps).
@@ -86,6 +89,7 @@ author_work_experiences:
               company_url: https://www.ipa.fraunhofer.de/
               alias_url: fraunhofer.de
               designation: Intern
+              certificate: Fraunhofer.pdf
               period: 01.07.2018 - 30.09.2018
               description:
                   - Developed algorithms for mobile robots using ROS. Integrated features for obstacle detection using 
@@ -102,6 +106,7 @@ author_education_details:
                 alias_url: fh-aachen.de
                 college_degree: Mechatronics 
                 description: Master of Science
+                certificate: mastersDegree.pdf
                 visibility: true
               - college_logo: sppu.png
                 college_name: Savitribai Phule Pune University (formerly University of Pune)
@@ -110,6 +115,7 @@ author_education_details:
                 alias_url: unipune.ac.in
                 college_degree: Mechanical Engineering
                 description: Bachelor of Engineering
+                certificate: bachelorsDegree.pdf
                 visibility: true
               - college_logo: dps.png
                 college_name: Delhi Public School, Pune
@@ -117,7 +123,8 @@ author_education_details:
                 college_url: https://www.dpspune.com/
                 alias_url: dpspune.com
                 college_degree: High School
-                description: 
+                description: Senior School Certificate Examination
+                certificate: highSchool.pdf
                 visibility: true
 
 # Projects

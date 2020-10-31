@@ -488,7 +488,10 @@ header {
 /* jumbotron */
 .jumbotron {
     background-color: var(--main-background-color) !important;
-    background-image: url('https://cdn.hipwallpaper.com/i/9/51/QXOvJ3.jpg');
+    background-image: url('https://wallpaperaccess.com/full/796835.jpg');
+    /* https://ivan-ivanov.info/img/background.jpg
+    https://structr.com/new-website-2020/content-img/warp-background-2.jpg
+    https://www.imtglobalinc.com/wp-content/uploads/2020/07/AdobeStock_164909094-scaled.jpeg */
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -513,14 +516,14 @@ header {
 }
 
 .jumbotron-heading{
-    color: rgb(255, 255, 255);
+    color: --link-color;
     font-size: 35px;
 }
 
 .lead {
     font-size: 1.30rem !important;
     font-weight: 600;
-    color: rgb(255, 255, 255) !important;
+    color: --link-color !important;
 }
 
 .fa {
@@ -669,8 +672,7 @@ header {
     }
     .profile-img {
         width: 150px;
-        height: 150px;
-        margin-left: 20px;
+        margin-left: 15px;
     }
     .profile-name {
         margin-top: 20px;
@@ -720,6 +722,10 @@ header {
 
 .uni-logo {
     width: 150px;
+}
+
+.hobby_img {
+    width: 200px;
 }
 
 .author-profile-img {

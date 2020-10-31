@@ -23,12 +23,13 @@ layout: default
             <br />
             <br />
           </div>
-          <div class="col-lg-2 " style="text-align: center;">
+          <div class="col-md-3 " style="text-align: center;">
             <img
               src="{{site.url}}{{site.baseurl}}/assets/img/{{ exp.company_logo }}"
               class="company-logo"
             />
             <p><a href="{{exp.company_url}}">{{ exp.alias_url }}</a></p>
+            <p><a href="{{site.url}}{{site.baseurl}}/assets/certificates/{{exp.certificate}}">{{ exp.certificate }}</a></p>
           </div>
         </div>
         {% endif %} {% endfor %}
