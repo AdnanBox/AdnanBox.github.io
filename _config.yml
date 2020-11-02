@@ -136,7 +136,7 @@ author_project_details:
                 project_url: https://github.com/AdnanBox/CppND-Route-Planning-Project
                 alias_url: github.com/AdnanBox/CppND-Route-Planning-Project
                 visibility: true
-              - project_thumbnail: systemMonitor.PNG
+              - project_thumbnail: systemMonitor.png
                 project_title: System Monitor (Udacity CPP Nanodegree)
                 project_description: Wrote object-oriented C++ code to build a system monitor like the "htop" program
                                      in a linux system. 
@@ -157,14 +157,14 @@ author_project_details:
                 project_url: https://github.com/AdnanBox/CppND-Program-a-Concurrent-Traffic-Simulation
                 alias_url: github.com/AdnanBox/CppND-Program-a-Concurrent-Traffic-Simulation
                 visibility: true
-              - project_thumbnail: 2DfeatureTracking.PNG
+              - project_thumbnail: 2DfeatureTracking.png
                 project_title: 2D Feature Tracking (Udacity Sensor Fusion Nanodegree)
                 project_description: Extensively dealt with the OpenCV library to detect keypoints in camera images,
                                      extract and match descriptors.
                 project_url: https://github.com/AdnanBox/SFND_2D_Feature_Tracking
                 alias_url: github.com/AdnanBox/SFND_2D_Feature_Tracking
                 visibility: true
-              - project_thumbnail: 3DobjectTracking.PNG
+              - project_thumbnail: 3DobjectTracking.png
                 project_title: 3D Object Tracking (Udacity Sensor Fusion Nanodegree)
                 project_description: Extended the code from the 2D Feature tracking project to match 3D objects over time
                                      and determine time to collision.
