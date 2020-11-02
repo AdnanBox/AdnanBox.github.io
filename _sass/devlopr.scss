@@ -213,6 +213,16 @@ header {
     background-color: var(--card-background-color) !important;
 }
 
+.home_card {
+    margin: 0px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    width: fit-content;
+    background-color: var(--card-background-color) !important;
+}
+
 #topNav{
     padding-left: 100px;
     padding-right: 100px;
@@ -516,14 +526,14 @@ header {
 }
 
 .jumbotron-heading{
-    color: --link-color;
+    color: #ff7601;
     font-size: 35px;
 }
 
 .lead {
     font-size: 1.30rem !important;
     font-weight: 600;
-    color: --link-color !important;
+    color: #ff7601 !important;
 }
 
 .fa {

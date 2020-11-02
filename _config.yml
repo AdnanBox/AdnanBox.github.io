@@ -31,7 +31,7 @@ author_bio: As a Software Engineer in an agile team, I work towards transforming
 author_email: "adnan93212@gmail.com"
 author_location: Ingolstadt, Germany
 author_location_url: "https://www.google.com/maps/place/Ingolstadt/@48.7534664,11.3096118,12z/data=!3m1!4b1!4m5!3m4!1s0x479efe5188360abb:0xec5d7e2213748aea!8m2!3d48.7665351!4d11.4257541"
-typewrite-text: Looking for new opportunities to apply my knowledge of machine learning 
+typewrite-text: Looking for exciting opportunities to apply my knowledge of machine learning.
 
 # Experiences
 author_work_experiences:
@@ -129,15 +129,61 @@ author_education_details:
 
 # Projects
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+              - project_thumbnail: routePlanning.png
+                project_title: Route Planning (Udacity CPP Nanodegree)
+                project_description: Implemented an A* search algorithm that plans a route between two points in 
+                                     OpenStreetMap.
+                project_url: https://github.com/AdnanBox/CppND-Route-Planning-Project
+                alias_url: github.com/AdnanBox/CppND-Route-Planning-Project
                 visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
+              - project_thumbnail: systemMonitor.PNG
+                project_title: System Monitor (Udacity CPP Nanodegree)
+                project_description: Wrote object-oriented C++ code to build a system monitor like the "htop" program
+                                     in a linux system. 
+                project_url: https://github.com/AdnanBox/CppND-System-Monitor
+                alias_url: github.com/AdnanBox/CppND-System-Monitor
+                visibility: true
+              - project_thumbnail: memoryManagementChatbot.gif
+                project_title: Memory Management Chatbot (Udacity CPP Nanodegree)
+                project_description: Optimized a ChatBot program from a memory management perspective, by using smart 
+                                     pointers and references.
+                project_url: https://github.com/AdnanBox/CppND-Memory-Management-Chatbot
+                alias_url: github.com/AdnanBox/CppND-Memory-Management-Chatbot
+                visibility: true
+              - project_thumbnail: concurrentTrafficSimulation.gif
+                project_title: Concurrent Traffic Simulation (Udacity CPP Nanodegree)
+                project_description: Built a thread-safe communication protocol between vehicles and traffic lights at 
+                                     intersections using my knowledge of concurrent programming.
+                project_url: https://github.com/AdnanBox/CppND-Program-a-Concurrent-Traffic-Simulation
+                alias_url: github.com/AdnanBox/CppND-Program-a-Concurrent-Traffic-Simulation
+                visibility: true
+              - project_thumbnail: 2DfeatureTracking.PNG
+                project_title: 2D Feature Tracking (Udacity Sensor Fusion Nanodegree)
+                project_description: Extensively dealt with the OpenCV library to detect keypoints in camera images,
+                                     extract and match descriptors.
+                project_url: https://github.com/AdnanBox/SFND_2D_Feature_Tracking
+                alias_url: github.com/AdnanBox/SFND_2D_Feature_Tracking
+                visibility: true
+              - project_thumbnail: 3DobjectTracking.PNG
+                project_title: 3D Object Tracking (Udacity Sensor Fusion Nanodegree)
+                project_description: Extended the code from the 2D Feature tracking project to match 3D objects over time
+                                     and determine time to collision.
+                project_url: https://github.com/AdnanBox/SFND_3D_Object_Tracking
+                alias_url: github.com/AdnanBox/SFND_3D_Object_Tracking
+                visibility: true
+              - project_thumbnail: LiDARObstacleDetection.gif
+                project_title: LiDAR Obstacle Detection (Udacity Sensor Fusion Nanodegree)
+                project_description: Performed sensor fusion on LiDAR and RADAR sensor data to track multiple cars on the
+                                     road, estimating their speed and position.
+                project_url: https://github.com/AdnanBox/SFND_Lidar_Obstacle_Detection
+                alias_url: github.com/AdnanBox/SFND_Lidar_Obstacle_Detection
+                visibility: true
+              - project_thumbnail: unscentedKalmanFilter.gif
+                project_title: Unscented Kalman Filter (Udacity Sensor Fusion Nanodegree)
+                project_description: Implemented an UKF to estimate the state of multiple cars on a highway using noisy 
+                                     LiDAR and RADAR data measurements.
+                project_url: https://github.com/AdnanBox/SFND_Unscented_Kalman_Filter
+                alias_url: github.com/AdnanBox/SFND_Unscented_Kalman_Filter
                 visibility: true
 
 # social links
