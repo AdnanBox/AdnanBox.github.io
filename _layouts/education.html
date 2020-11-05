@@ -11,7 +11,7 @@ layout: default
       {% for detail in site.author_education_details %} {% if detail.visibility
       == true %}
       <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-6 offset-sm-1">
           <h4 class="experience-title">{{detail.college_degree }}</h4>
           <h6 class="experience-info">{{detail.college_name}}</h6>
           <h6 class="experience-info">{{detail.period}}</h6>
@@ -20,7 +20,7 @@ layout: default
           <br />
           <br />
         </div>
-        <div class="col-lg-2" style="text-align: center;">
+        <div class="col-lg-2 offset-sm-1" style="text-align: center;">
           <img
             src="{{site.url}}{{site.baseurl}}/assets/img/{{ detail.college_logo}}"
             class="uni-logo"
