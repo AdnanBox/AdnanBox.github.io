@@ -53,15 +53,8 @@ layout: default
 
       {%- include author_skills.html -%}
     </div>
-
-    {% if site.wakatime_username %}
-    <div class="card">
-      <h1>Coding Activity</h1>
-
-      {%- include coding_activity.html -%}
-    </div>
-    {% endif %}
   </div>
+
   <div class="col-lg-7">
     {% if site.author_bio %}
     <div class="card">
@@ -72,9 +65,9 @@ layout: default
     <div class="card">
       <h1 class="card-title">When I'm not working...</h1>
       <div class="row">
-        <div class="column">
+        <div class="column" style="padding-left: 50px;">
           <div><img src="{{ site.url }}{{ site.baseurl }}/assets/img/hobby1.png" class="hobby_img"/></div>
-          <div><video width="200" autoplay loop muted>
+          <div><video width="225" autoplay loop muted>
             <source src="{{ site.url }}{{ site.baseurl }}/assets/img/hobby5.mp4" type="video/mp4">
           </video></div>
         </div>

@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="row ">
+  <div class="col-lg-10 offset-lg-1">
+    {% if site.show_author_prof_development == true %}
+    <div class="card">
+      <h1 class="card-title">Professional Development</h1>
+      <br />
+      {% for info in site.author_professional_development %} {% if info.visibility
+      == true %}
+      <div class="row" >
+        <div class="col-md-3">
+          <img
+            src="{{site.url}}{{site.baseurl}}/assets/img/{{info.logo}}"
+            class="course_img"
+          />
+        </div>
+        <div class="col-md-7 offset-sm-1">
+          <h4 class="experience-title">{{ info.course_name }}</h4>
+          <h6 class="experience-info">{{ info.platform}}</h6>
+          <p class="experience-desc">{{ info.issue }}</p>
+          <p class="experience-desc"><a href="{{site.url}}{{site.baseurl}}/assets/certificates/{{info.certificate}}">view course certificate --></a></p>
+        </div>
+      </div>
+      <br />
+      {% endif %} {% endfor %}
+    </div>
+    {% endif %} 
+  </div>
+</div>

@@ -14,10 +14,8 @@ urls:
       url : /education
     - text: Projects
       url : /projects
-    - text: Additional Info
-      url : /add_info
-    #- text: Contact Me
-    #  url : /contact
+    - text: Professional Development
+      url : /profdevelopment
 
 
 # Edit these details
@@ -186,6 +184,52 @@ author_project_details:
                 alias_url: github.com/AdnanBox/SFND_Unscented_Kalman_Filter
                 visibility: true
 
+# Professional Development
+author_professional_development:
+              - course_name: Machine Learning
+                platform: Coursera
+                issue: Oct 2019
+                certificate: machineLearning.pdf
+                logo: coursera.png
+                visibility: true
+              - course_name: Deep Learning Specialization
+                platform: deeplearning.ai on Coursera
+                issue: Apr 2020
+                certificate: DLSpecialization.pdf
+                logo: deeplearningai.png
+                visibility: true
+              - course_name: Intro to TensorFlow for Artificial Intelligence, Machine Learning and Deep Learning
+                platform: deeplearning.ai on Coursera
+                issue: May 2020
+                certificate: Intro2TF.pdf
+                logo: deeplearningai.png
+                visibility: true
+              - course_name: Convolutional Neural Networks in TensorFlow
+                platform: deeplearning.ai on Coursera
+                issue: May 2020
+                certificate: CNNTF.pdf
+                logo: deeplearningai.png
+                visibility: true
+              - course_name: Sensor Fusion Nanodegree
+                platform: Udacity
+                issue: July 2020
+                certificate: SensorFusion.pdf
+                logo: udacity.png
+                visibility: true
+              - course_name: C++ Nanodegree
+                platform: Udacity
+                issue: ongoing*
+                certificate: "./../../profdevelopment/"
+                logo: udacity.png 
+                visibility: true
+              - course_name: Convolutional Neural Networks for Visual Recognition (CS231n)
+                platform: Stanford University (MOOC, youtube)
+                issue: ongoing*
+                certificate: "./../../profdevelopment/"
+                logo: stanford.png
+                visibility: true
+              
+
 # social links
 github_username:  AdnanBox
 linkedin_username: adnan-boxwala
@@ -200,6 +244,7 @@ permalink: pretty
 show_author_work_experiences: true
 show_author_education_details: true
 show_author_project_details: true
+show_author_prof_development: true
 
 # pagination of posts
 paginate: 4

@@ -714,6 +714,7 @@ header {
     .project-img {
         width: 300px;
         height: 200px;
+        padding-bottom: 35px;
     }
     #project-card{
         margin-top:30px;
@@ -732,7 +733,12 @@ header {
 }
 
 .hobby_img {
-    width: 200px;
+    width: 225px;
+}
+
+.course_img {
+    width: 150px;
+    padding-left: 40px;
 }
 
 .author-profile-img {
