@@ -42,6 +42,7 @@ author_work_experiences:
               company_url: https://efs-techhub.com/
               alias_url: efs-techhub.com
               designation: Software Development Engineer
+              certificate: efs.pdf
               period: 01.01.2020 - present
               description:
                   - Re-engineered a legacy fault injection software for virtual bus systems using modern technologies, delivering a more intuitive UI and significantly enhanced performance.
