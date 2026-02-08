@@ -37,10 +37,10 @@ typewrite-text: Seeking my next challenge. Let’s build something useful.
 
 # Experiences
 author_work_experiences:
-            - company_name: Elektronische Fahrwerksysteme GmbH, Ingolstadt
+            - company_name: e:fs TechHub Gmbh, Ingolstadt
               company_logo: efs.png
-              company_url: https://www.efs-auto.com/
-              alias_url: efs-auto.com
+              company_url: https://efs-techhub.com/
+              alias_url: efs-techhub.com
               designation: Software Development Engineer
               period: 01.01.2020 - present
               description:

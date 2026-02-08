@@ -16,11 +16,11 @@ layout: default
             <h6 class="experience-info">{{ exp.period }}</h6>
             <h6 class="experience-info">{{ exp.company_name }}</h6>
             <div class="offset-md-1">
-            {% for desc in exp.description %}
-              <ul class="a">
-                <li class="experience-desc">{{ desc }}</li>
+              <ul class="a" style="text-align: justify; text-justify: inter-word;">
+                {% for desc in exp.description %}
+                  <li class="experience-desc">{{ desc }}</li>
+                {% endfor %}
               </ul>
-            {% endfor %}
             </div>
             <br />
             <br />
