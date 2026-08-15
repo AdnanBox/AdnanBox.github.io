@@ -1,0 +1,32 @@
+export const education = [
+  {
+    logo: '/img/FHAachen.png',
+    name: 'FH Aachen University of Applied Sciences',
+    period: '2016 - 2019',
+    url: 'https://www.fh-aachen.de/',
+    aliasUrl: 'fh-aachen.de',
+    degree: 'Mechatronics',
+    description: 'Master of Science',
+    certificate: '/certificates/mastersDegree.pdf',
+  },
+  {
+    logo: '/img/sppu.png',
+    name: 'Savitribai Phule Pune University (formerly University of Pune)',
+    period: '2010 - 2014',
+    url: 'http://www.unipune.ac.in/',
+    aliasUrl: 'unipune.ac.in',
+    degree: 'Mechanical Engineering',
+    description: 'Bachelor of Engineering',
+    certificate: '/certificates/bachelorsDegree.pdf',
+  },
+  {
+    logo: '/img/dps.png',
+    name: 'Delhi Public School, Pune',
+    period: '2004 - 2010',
+    url: 'https://www.dpspune.com/',
+    aliasUrl: 'dpspune.com',
+    degree: 'High School',
+    description: 'Senior School Certificate Examination',
+    certificate: '/certificates/highSchool.pdf',
+  },
+];

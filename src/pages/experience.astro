@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Card from '../components/Card.astro';
+import { experience } from '../data/experience';
+---
+
+<BaseLayout title="Experience">
+  <div class="mx-auto max-w-5xl px-4 py-12 sm:px-6">
+    <h1 class="text-2xl font-bold tracking-tight">Work Experience</h1>
+    <div class="mt-6 grid gap-5 sm:grid-cols-2">
+      {experience.map((job) => (
+        <Card
+          title={job.company}
+          subtitle={job.designation}
+          meta={job.period}
+          description={job.description}
+          logo={job.logo}
+          url={job.url}
+          aliasUrl={job.aliasUrl}
+          certificate={job.certificate}
+        />
+      ))}
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,51 @@
+export const courses = [
+  {
+    name: 'Machine Learning',
+    platform: 'Coursera',
+    issue: 'Oct 2019',
+    certificate: '/certificates/machineLearning.pdf',
+    logo: '/img/coursera.png',
+  },
+  {
+    name: 'Deep Learning Specialization',
+    platform: 'deeplearning.ai on Coursera',
+    issue: 'Apr 2020',
+    certificate: '/certificates/DLSpecialization.pdf',
+    logo: '/img/deeplearningai.png',
+  },
+  {
+    name: 'Intro to TensorFlow for Artificial Intelligence, Machine Learning and Deep Learning',
+    platform: 'deeplearning.ai on Coursera',
+    issue: 'May 2020',
+    certificate: '/certificates/Intro2TF.pdf',
+    logo: '/img/deeplearningai.png',
+  },
+  {
+    name: 'Convolutional Neural Networks in TensorFlow',
+    platform: 'deeplearning.ai on Coursera',
+    issue: 'May 2020',
+    certificate: '/certificates/CNNTF.pdf',
+    logo: '/img/deeplearningai.png',
+  },
+  {
+    name: 'Sensor Fusion Nanodegree',
+    platform: 'Udacity',
+    issue: 'July 2020',
+    certificate: '/certificates/SensorFusion.pdf',
+    logo: '/img/udacity.png',
+  },
+  {
+    name: 'C++ Nanodegree',
+    platform: 'Udacity',
+    issue: 'ongoing',
+    certificate: null,
+    logo: '/img/udacity.png',
+  },
+  {
+    name: 'Convolutional Neural Networks for Visual Recognition (CS231n)',
+    platform: 'Stanford University (MOOC, YouTube)',
+    issue: 'ongoing',
+    certificate: null,
+    logo: '/img/stanford.png',
+  },
+];

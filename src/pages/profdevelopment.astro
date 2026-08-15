@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Card from '../components/Card.astro';
+import { courses } from '../data/courses';
+---
+
+<BaseLayout title="Professional Development">
+  <div class="mx-auto max-w-5xl px-4 py-12 sm:px-6">
+    <h1 class="text-2xl font-bold tracking-tight">Professional Development</h1>
+    <div class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {courses.map((course) => (
+        <Card
+          title={course.name}
+          subtitle={course.platform}
+          meta={course.issue}
+          logo={course.logo}
+          certificate={course.certificate}
+        />
+      ))}
+    </div>
+  </div>
+</BaseLayout>

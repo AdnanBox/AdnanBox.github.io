@@ -1,0 +1,64 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site, skills, hobbies } from '../data/site';
+---
+
+<BaseLayout title="About">
+  <div class="mx-auto max-w-5xl px-4 py-12 sm:px-6">
+    <div class="grid gap-8 md:grid-cols-3">
+      <div class="space-y-6 md:col-span-1">
+        <div class="rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] p-6 text-center">
+          <img src={site.logo} alt={site.title} class="mx-auto h-28 w-28 rounded-full object-cover" />
+          <h1 class="mt-4 text-xl font-semibold">{site.title}</h1>
+          <p class="text-sm text-[var(--color-text-muted)]">{site.subtitle}</p>
+          <div class="mt-4 space-y-1 text-sm text-[var(--color-text-muted)]">
+            <p>
+              <a href={site.locationUrl} target="_blank" rel="noopener noreferrer" class="hover:text-[var(--color-accent)]">
+                {site.location}
+              </a>
+            </p>
+            <p>
+              <a href={`mailto:${site.email}`} class="hover:text-[var(--color-accent)]">{site.email}</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] p-6">
+          <h2 class="font-semibold">Skills</h2>
+          <dl class="mt-3 space-y-2 text-sm">
+            {skills.map((skill) => (
+              <div>
+                <dt class="font-medium">{skill.label}</dt>
+                <dd class="text-[var(--color-text-muted)]">{skill.value}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      </div>
+
+      <div class="space-y-6 md:col-span-2">
+        <div class="rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] p-6">
+          <h2 class="font-semibold">About</h2>
+          <p class="mt-3 text-sm text-[var(--color-text-muted)]">{site.bio}</p>
+        </div>
+
+        <div class="rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] p-6">
+          <h2 class="font-semibold">When I'm not working&hellip;</h2>
+          <div class="mt-3 columns-2 gap-3 sm:columns-3">
+            {hobbies.map((src) => (
+              <div class="mb-3 break-inside-avoid overflow-hidden rounded-lg">
+                {src.endsWith('.mp4') ? (
+                  <video class="w-full" autoplay loop muted playsinline>
+                    <source src={src} type="video/mp4" />
+                  </video>
+                ) : (
+                  <img src={src} alt="" class="w-full" loading="lazy" />
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

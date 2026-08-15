@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://AdnanBox.github.io/sitemap-index.xml

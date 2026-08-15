@@ -1,0 +1,57 @@
+---
+interface Props {
+  title: string;
+  subtitle?: string;
+  meta?: string;
+  description?: string | string[];
+  logo?: string;
+  image?: string;
+  url?: string;
+  aliasUrl?: string;
+  certificate?: string | null;
+}
+
+const { title, subtitle, meta, description, logo, image, url, aliasUrl, certificate } = Astro.props;
+const items = Array.isArray(description) ? description : description ? [description] : [];
+---
+
+<article class="flex flex-col overflow-hidden rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)]">
+  {image && (
+    <img src={image} alt={title} class="h-44 w-full object-cover" loading="lazy" />
+  )}
+
+  <div class="flex flex-1 flex-col gap-3 p-5">
+    <div class="flex items-start gap-3">
+      {logo && <img src={logo} alt="" class="h-10 w-10 shrink-0 rounded-md object-contain" loading="lazy" />}
+      <div>
+        <h3 class="font-semibold leading-snug">{title}</h3>
+        {subtitle && <p class="text-sm text-[var(--color-text-muted)]">{subtitle}</p>}
+      </div>
+    </div>
+
+    {meta && <p class="text-xs font-medium uppercase tracking-wide text-[var(--color-accent)]">{meta}</p>}
+
+    {items.length === 1 ? (
+      <p class="text-sm text-[var(--color-text-muted)]">{items[0]}</p>
+    ) : items.length > 1 ? (
+      <ul class="list-disc space-y-1 pl-4 text-sm text-[var(--color-text-muted)]">
+        {items.map((line) => <li>{line}</li>)}
+      </ul>
+    ) : null}
+
+    {(url || certificate) && (
+      <div class="mt-auto flex flex-wrap gap-x-4 gap-y-1 pt-2 text-sm">
+        {url && (
+          <a href={url} target="_blank" rel="noopener noreferrer" class="font-medium text-[var(--color-accent)] hover:underline">
+            {aliasUrl || 'View'} &rarr;
+          </a>
+        )}
+        {certificate && (
+          <a href={certificate} target="_blank" rel="noopener noreferrer" class="text-[var(--color-text-muted)] hover:underline">
+            Certificate
+          </a>
+        )}
+      </div>
+    )}
+  </div>
+</article>

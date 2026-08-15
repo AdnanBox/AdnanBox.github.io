@@ -1,0 +1,23 @@
+---
+import { site } from '../data/site';
+
+const year = new Date().getFullYear();
+const links = [
+  { label: 'GitHub', href: `https://github.com/${site.social.github}` },
+  { label: 'LinkedIn', href: `https://linkedin.com/in/${site.social.linkedin}` },
+  { label: 'Instagram', href: `https://instagram.com/${site.social.instagram}` },
+];
+---
+
+<footer class="border-t border-[var(--color-border)]">
+  <div class="mx-auto flex max-w-5xl flex-col items-center gap-3 px-4 py-8 text-sm text-[var(--color-text-muted)] sm:flex-row sm:justify-between sm:px-6">
+    <p>&copy; {year} {site.title}</p>
+    <div class="flex gap-4">
+      {links.map((link) => (
+        <a href={link.href} target="_blank" rel="noopener noreferrer" class="hover:text-[var(--color-accent)]">
+          {link.label}
+        </a>
+      ))}
+    </div>
+  </div>
+</footer>
